@@ -1,13 +1,15 @@
 #encabezado{
-  color:red;
+  color:black;
   background-color:D2C5EE;
-  align center;
+  
   
 }
 
 #sobre-mi{
   color:black;
-  background-color:lightblue;
-  align center;
+  background-color:D2C5EE;
+  border-radius:9px;
+  
+  
   
 }
