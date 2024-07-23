@@ -1,13 +1,10 @@
 #encabezado{
   color:black;
-  background-color:D2C5EE;
-  
-  
+  background-color:#D2C5EE;  
 }
-
 #sobre-mi{
   color:black;
-  background-color:#D2C5EE;
+  background-color:red;
   border-radius:9px;  
 }
 #proyectos{
