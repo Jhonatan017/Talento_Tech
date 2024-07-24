@@ -30,7 +30,7 @@ input {
             background-color: #3498db; /* Color de fondo */
             color: #fff; /* Color del texto */
             border: none; /* Sin borde */
-            border-radius: 10px; /* Bordes redondeados */
+            border-radius: 20px; /* Bordes redondeados */
             cursor: pointer; /* Cursor de puntero */
             font-size: 16px; /* Tamaño de fuente */
    }
