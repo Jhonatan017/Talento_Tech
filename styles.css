@@ -20,7 +20,7 @@ label {
             margin-bottom: 5px; /* Espaciado inferior */
             color: #333; /* Color del texto */
         }
-submit {
+input {
             width: 100%; /* Ancho completo */
             padding: 10px; /* Relleno interno */
             background-color: #3498db; /* Color de fondo */
