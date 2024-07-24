@@ -12,7 +12,7 @@
             width: 100%; /* Ancho completo */
             max-width: 400px; /* Ancho máximo */
  #paises {
-  width:   width: 100%; /* Ancho completo */
+            width: 100%; /* Ancho completo */
             display: block; /* Mostrar como bloque */
             margin-bottom: 5px; /* Espaciado inferior */
             color: #333; /* Color del texto */
