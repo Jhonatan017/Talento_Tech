@@ -1,20 +1,36 @@
-#encabezado{
-  color:black;
-  background-color:#D2C5EE;  
+ body {
+            font-family: Arial, sans-serif; /* Fuente de texto */
+            margin: 0; /* Elimina el margen predeterminado */
+            padding: 0; /* Elimina el relleno predeterminado */
+            background-color: #f0f0f0; /* Color de fondo */
+            display: flex; /* Utiliza flexbox */
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: center; /* Centra el contenido verticalmente */
+            height: 100vh; /* Altura completa de la ventana */
+#sec1{
+ background-color: #fff; /* Fondo blanco */
+            padding: 20px; /* Relleno alrededor del contenido */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la sección */
+            border-radius: 10px; /* Bordes redondeados */
+            width: 100%; /* Ancho completo */
+            max-width: 400px; /* Ancho máximo */
 }
-#sobre-mi{
-  color:black;
-  background-color:red;
-  border-radius:9px;  
-}
-#proyectos{
-  color:black;
-  background-color:#D2C5EE;
-  border-radius:9px;  
-}
-#contacto{
-  color:black;
-  background-color:#D2C5EE;
-  border-radius:9px;  
-}
-
+label {
+            display: block; /* Mostrar como bloque */
+            margin-bottom: 5px; /* Espaciado inferior */
+            color: #333; /* Color del texto */
+        }
+submit {
+            width: 100%; /* Ancho completo */
+            padding: 10px; /* Relleno interno */
+            background-color: #3498db; /* Color de fondo */
+            color: #fff; /* Color del texto */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cursor de puntero */
+            font-size: 16px; /* Tamaño de fuente */
+   }
+   submit:hover {
+            background-color: #2980b9; /* Color de fondo al pasar el cursor */
+   submit:hover {
+     
