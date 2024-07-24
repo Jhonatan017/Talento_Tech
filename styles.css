@@ -4,13 +4,14 @@
             justify-content: center; /* Centra el contenido horizontalmente */
             align-items: center; /* Centra el contenido verticalmente */
             height: 100vh; /* Altura completa de la ventana */
-#sec1{
+section{
  background-color: #fff; /* Fondo blanco */
             padding: 20px; /* Relleno alrededor del contenido */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la sección */
             border-radius: 10px; /* Bordes redondeados */
             width: 100%; /* Ancho completo */
             max-width: 400px; /* Ancho máximo */
+            margin: 0 auto;
  #paises {
             font-size:16px;
             width: 100%; /* Ancho completo */
