@@ -4,6 +4,7 @@
             justify-content: center; /* Centra el contenido horizontalmente */
             align-items: center; /* Centra el contenido verticalmente */
             height: 100vh; /* Altura completa de la ventana */
+  }
 section{
  background-color: #fff; /* Fondo blanco */
             padding: 20px; /* Relleno alrededor del contenido */
