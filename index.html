@@ -1,49 +1,37 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa del Sitio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8"> <!-- Codificación de caracteres -->
+<title> Lista despleglable</title>
 </head>
 <body>
-    <!-- Encabezado principal -->
-    <header>
-        <h1>Mapa del Sitio</h1>
-    </header>
 
-    <!-- Contenido principal del mapa del sitio -->
-    <main>
-        <section id="encabezado">
-            <h2>Secciones del Sitio</h2>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyecto">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </section>
+<h1>Lista Despleglable</h1>
 
-        <section id="sobre-mi">
-            <h2>Sobre mí</h2>
-            <p>En esta sección, puedes encontrar información sobre mi trayectoria y habilidades.</p>
-            <ul>
-                <li><a href="sobre-mi.html">Ver sección completa</a></li>
-            </ul>
-        </section>
+<p>Seleccione su Nacionalidad.</p>
 
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <p>En esta sección, puedes ver algunos de los proyectos en los que he trabajado.</p>
-            <ul>
-                <li><a href="proyectos.html">Ver sección completa</a></li>
-            </ul>
-        </section>
+<form action="/action_page.php">
+  <label for="country">Pais:</label>
+  <select name="paises" id="paises">
+  <option value="Selecciona">Selecciona</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Bolivia">Bolivia</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Chile">Chile</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Ecuador">Ecuador</option>
+    <option value="Guayana">Guayana</option>
+    <option value="Mexico">México</option>
+    <option value="Peru">Perú</option>
+    <option value="Paraguay">Paraguay</option>
+    <option value="Uruguay">Uruguay</option>
+    <option value="Venezuela">Venezuela</option>
+    <option value="Otro">Otro</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Aceptar">
+</form>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Aquí puedes encontrar mi información de contacto.</p>
-            <ul>
-                <li><a href="contacto.html">Ver sección completa</a></li>
-            </ul>
-        </section
+<p>Haz click en aceptar para enviar la información".</p>
+</body>
+</html>
