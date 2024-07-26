@@ -9,6 +9,15 @@
             margin-bottom: 20px; /* Espaciado inferior */
              }
   }
+section_1{
+font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+ border: 1px solid black;
+  }
+  td{
+  text-align: center;
+ }
 section{
  background-color: #fff; /* Fondo blanco */
             padding: 20px; /* Relleno alrededor del contenido */
@@ -17,6 +26,7 @@ section{
             width: 100%; /* Ancho completo */
             max-width: 400px; /* Ancho máximo */
             margin: 0 auto;
+ }
  #paises {
             font-size:16px;
             width: 100%; /* Ancho completo */
