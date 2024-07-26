@@ -9,7 +9,7 @@
             margin-bottom: 20px; /* Espaciado inferior */
              }
   }
-section_1{
+table.tr,th,td{
 font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 30%;
