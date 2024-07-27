@@ -5,7 +5,7 @@
             align-items: center; /* Centra el contenido verticalmente */
             height: 100vh; /* Altura completa de la ventana */
    header {
-            text-align: justified; /* Centrar el texto */
+            text-align: left; /* Centrar el texto */
             margin-bottom: 20px; /* Espaciado inferior */
              }
   }
